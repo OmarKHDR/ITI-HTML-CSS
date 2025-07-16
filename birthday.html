@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>HOME</title>
-	<link rel="stylesheet" href="./birthday.html">
-	<link rel="stylesheet" href="./css/">
+	<title>Birthday</title>
+	<link rel="stylesheet" href="./css/birthday.css">
+	<link rel="stylesheet" href="./css/general.css">
 	<link rel="icon" href="./images/icon.png">
-	<meta />
 </head>
+
 <body>
-	<header>
-		<div class="navbar">
-			<a href="./home.html">HOME</a>
-			<a href="./hoppies.html">HOPPIES</a>
-			<a href="./birthday.html">BIRTHDAY</a>
-			<a href="./contact.html">CONTACT US</a>
-			<a href="./galary.html">GALARY</a>
-			<a href="./cv.html">CV</a>
+	<div class="all">
+		<header>
+			<div class="navbar">
+				<div class="pages">
+					<a href="./index.html">HOME</a>
+					<a href="./hoppies.html">HOPPIES</a>
+					<a href="./birthday.html" style="border-bottom: 2px solid gold;">BIRTHDAY</a>
+					<a href="./contact.html">CONTACT US</a>
+					<a href="./galary.html">GALARY</a>
+					<a href="./cv.html">CV</a>
+				</div>
+			</div>
+		</header>
+		<div class="birthday-content birthday-timed">
+			<img id="birthday-img" src="./images/birthday.jpg" alt="Birthday" style="width:400px;">
+			<form id="birthday-form" action="thankyou.html" method="get">
+				<textarea placeholder="Write a kind message..." required></textarea>
+				<br>
+				<button type="submit">Submit</button>
+			</form>
 		</div>
-	</header>
-
-
-	<footer>
-
-	</footer>
+	</div>
 </body>
+
 </html>

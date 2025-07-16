@@ -1,0 +1,74 @@
+.slider-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	position: relative;
+}
+
+.country-cards {
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+
+.country-card {
+	background: rgba(20, 20, 20, 0.8);
+	border-radius: 16px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+	padding: 24px 20px 20px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 320px;
+}
+
+.country-name {
+	font-size: 2rem;
+	color: gold;
+	margin-bottom: 20px;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.slider-img {
+	width: 260px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 12px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+	margin-bottom: 8px;
+}
+
+
+
+.slider button {
+	font-size: 2rem;
+	background: gold;
+	border: none;
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.slider button:hover {
+	background: orange;
+}
+
+.slider-nav {
+	margin-top: 24px;
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+}
+
+.slider-nav label {
+	cursor: pointer;
+	font-size: 2rem;
+	color: #ccc;
+	transition: color 0.2s;
+}
+
